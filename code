@@ -1,0 +1,69 @@
+# Load packages 
+#NOTE: Run. base. R if these commands return an error!
+
+library(readr)
+library(dplyr)
+library(haven)
+
+# set working directory
+setwd("~/Desktop/Sta215")
+
+#Load the data 
+dataset<- read_delim("raw_data.csv")
+
+complete_data <- na.omit(dataset) 
+
+##################################################################################
+####################  Table 2: contingency table                ####################   
+##################################################################################
+table(complete_data$roe_v_wade,complete_data$trust_supreme_court)
+chisq.test(complete_data$roe_v_wade,complete_data$trust_supreme_court)
+
+
+##################################################################################
+####################   Figure 1: box plot             ####################   
+##################################################################################
+boxplot(complete_data$patriotic ~ complete_data$roe_v_wade)
+anova <- aov(complete_data$patriotic ~ complete_data$roe_v_wade)
+summary(anova)
+##################################################################################
+####################   Figure 2: scatter plot             ####################   
+##################################################################################
+complete_data$lnhincome <- log(complete_data$house_income+1)
+linear_plot <- plot(complete_data$lnhincome, complete_data$patriotic)
+print(linear_plot)
+
+# add x line and y line for means
+meany <- mean(complete_data$patriotic)
+meanx <- mean(complete_data$lnhincome)
+
+abline(v = meanx, col = "black")
+abline(h = meany, col = "black")
+
+linear_relationship <- lm(complete_data$patriotic ~ lnhincome, data = complete_data)
+summary(linear_relationship)
+
+# Add the linear regression line to the scatter plot
+# NOTE: double check the scatter plot is currently in your utilities window!
+abline(linear_relationship, col = "red")
+##################################################################################
+####################  Figure 3: residual plot                ####################   
+##################################################################################
+# Plot the residuals
+plot(complete_data$lnhincome, residuals(linear_relationship))
+
+
+
+##################################################################################
+####################  Table 1: Descriptive stats                ####################   
+##################################################################################
+# mean level of feelings towards democratic party
+summary(complete_data$house_income)
+sd(complete_data$house_income)
+
+summary(complete_data$patriotic)
+sd(complete_data$patriotic)
+
+table(complete_data$roe_v_wade)
+
+table(complete_data$trust_supreme_court)
