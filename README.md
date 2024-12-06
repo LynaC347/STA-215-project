@@ -5,6 +5,7 @@ DATA
 The data collected for this project was from a survey of a random sample of TCNJ students. 
 
 
+
 OPERATIONALIZATION 
 
 The concept of patriotism was operationalized by rating how patriotic an individual feels based on a quantitative scale from 1-10. 1 being not patriotic at all and 10 being very patritotic
