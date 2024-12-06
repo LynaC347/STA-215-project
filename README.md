@@ -9,10 +9,10 @@ The population I got my data from was from students who attended The College of 
 
 OPERATIONALIZATION 
 
-The concept of patriotism was operationalized by rating how patriotic an individual feels based on a quantitative scale from 1-10. 1 being not patriotic at all and 10 being very patritotic
+The concept of patriotism was operationalized by rating how patriotic an individual feels based on a quantitative scale from 1-10. 1 being not patriotic at all and 10 being very patritotic.
 
-The concept of the level of trust indivudals have in the Supreme Court to do the right thing was operationalized by turning it to an ordinal variable with 5 categories. Those being: "always trust", "most of the time trust", "sometimes trust", "rarely trust", and "never trust".
+The concept of the level of trust indivudals have in the Supreme Court to do the right thing was operationalized by turning it to an ordinal variable with 5 possible values. Those being: "always trust", "most of the time trust", "sometimes trust", "rarely trust", and "never trust".
 
-The concept of feelings toward the overturning of Roe V Wade was operationalized similarly to trust in the supreme court. It was turned into a qualitative variable indicating weather they supported the overturning or did not support. 
+The concept of feelings toward the overturning of Roe V Wade was operationalized by tunring it into a binary variable. There are two main feelings that someone can have towards the overturing of Roe V Wade and that is simply either supporting it or not supporting it. 
 
 The concept of family earnings was operationalized and turned into a quantitaive variable by calculating the amount of money an individuals parents earned yearly in dollars. 
