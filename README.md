@@ -11,7 +11,7 @@ OPERATIONALIZATION
 
 The concept of patriotism was operationalized by rating how patriotic an individual feels based on a quantitative scale from 1-10. 1 being not patriotic at all and 10 being very patriotic.
 
-The concept of the level of trust indivudals have in the Supreme Court to do the right thing was operationalized by turning it to an ordinal variable with 5 possible values. Those being: "always trust", "most of the time trust", "sometimes trust", "rarely trust", and "never trust".
+The concept of the level of trust individuals have in the Supreme Court to do the right thing was operationalized by turning it to an ordinal variable with 5 possible values. Those being: "always trust", "most of the time trust", "sometimes trust", "rarely trust", and "never trust".
 
 The concept of feelings toward the overturning of Roe V Wade was operationalized by turning it into a binary variable. There are two main feelings that someone can have towards the overturning of Roe V Wade and that is simply either supporting it or not supporting it. 
 
